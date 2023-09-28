@@ -1,0 +1,71 @@
+{
+  "namespace": "com.efs.sdk.storage",
+  "type": "record",
+  "name": "SpaceBase",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "identifier",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "defaultRetentionTime",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null
+    },
+    {
+      "name": "description",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "state",
+      "type": [
+        "null",
+        "State"
+      ],
+      "default": null
+    },
+    {
+      "name": "confidentiality",
+      "type": [
+        "null",
+        "Confidentiality"
+      ],
+      "default": null
+    },
+    {
+      "name": "organizationName",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name":"capabilities",
+      "type": {
+        "type": "array",
+        "items": "Capability"
+      },
+      "default": ["STORAGE","METADATA"]
+    }
+  ]
+}

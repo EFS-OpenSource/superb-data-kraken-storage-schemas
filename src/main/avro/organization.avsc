@@ -1,0 +1,19 @@
+{
+  "namespace": "com.efs.sdk.storage",
+  "type": "record",
+  "name": "OrganizationDTO",
+  "fields": [
+    {
+      "name": "organization",
+      "type": "OrganizationBase"
+    },
+    {
+      "name": "user",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    }
+  ]
+}

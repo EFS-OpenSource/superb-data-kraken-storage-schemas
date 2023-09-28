@@ -1,0 +1,11 @@
+{
+  "name": "State",
+  "namespace": "com.efs.sdk.storage",
+  "type": "enum",
+  "symbols": [
+    "OPEN",
+    "CLOSED",
+    "LOCKED",
+    "DELETION"
+  ]
+}

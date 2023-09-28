@@ -1,0 +1,19 @@
+{
+  "namespace": "com.efs.sdk.storage",
+  "type": "record",
+  "name": "SpaceDTO",
+  "fields": [
+    {
+      "name": "space",
+      "type": "SpaceBase"
+    },
+    {
+      "name": "user",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    }
+  ]
+}

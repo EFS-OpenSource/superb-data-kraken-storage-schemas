@@ -1,0 +1,6 @@
+{
+  "name": "Capability",
+  "namespace" : "com.efs.sdk.storage",
+  "type": "enum",
+  "symbols": ["STORAGE", "METADATA", "VM", "DASHBOARD", "UPLOAD", "ANALYSIS"]
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "com.efs.sdk.storage",
+  "type": "record",
+  "name": "SpaceUpdateDTO",
+  "fields": [
+    {
+      "name": "oldValue",
+      "type": "SpaceBase"
+    },
+    {
+      "name": "newValue",
+      "type": "SpaceBase"
+    },
+    {
+      "name": "user",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    }
+  ]
+}
+

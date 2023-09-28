@@ -1,0 +1,10 @@
+{
+  "name": "Confidentiality",
+  "namespace": "com.efs.sdk.storage",
+  "type": "enum",
+  "symbols": [
+    "PUBLIC",
+    "INTERNAL",
+    "PRIVATE"
+  ]
+}
